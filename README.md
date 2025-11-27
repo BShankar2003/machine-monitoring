@@ -1,9 +1,7 @@
-
-
-# 📄 **README.md** — Machine Monitoring & Reliability Analysis (CIM Project)
+README.md — Machine Monitoring & Reliability Analysis (CIM Project)
 
 ```md
-# 🔧 Machine Monitoring System (CIM-Inspired Project)
+ Machine Monitoring System (CIM-Inspired Project)
 A real-time equipment monitoring simulation inspired by **semiconductor FAB CIM (Computer Integrated Manufacturing)** environments.  
 The system logs machine uptime/downtime, analyses failure patterns, generates reliability metrics like **MTBF, MTTR, Availability**, and visualizes performance data.
 
@@ -11,7 +9,7 @@ This project was built to replicate how chip manufacturing fabs monitor tool per
 
 ---
 
-## 🚀 Features
+ Features
 
 | Feature | Status | Description |
 |---|---|---|
@@ -23,7 +21,7 @@ This project was built to replicate how chip manufacturing fabs monitor tool per
 
 ---
 
-## 🏗 Tech Stack
+ Tech Stack
 
 | Component | Tools Used |
 |---|---|
@@ -34,7 +32,7 @@ This project was built to replicate how chip manufacturing fabs monitor tool per
 
 ---
 
-## 📂 Directory Structure
+ Directory Structure
 
 ```
 
@@ -50,9 +48,9 @@ machine-monitoring/
 
 ---
 
-## 🔥 How to Run the Project (Execution Order)
+ How to Run the Project (Execution Order)
 
-### **1. Start Real-Time Monitoring**
+1. Start Real-Time Monitoring**
 This script creates logs continuously.
 
 ```bash
@@ -61,7 +59,7 @@ python machine_monitor.py
 
 Keep it running for a minute or more → Press `CTRL + C` to stop.
 
-### **2. Generate Performance Graph**
+2. Generate Performance Graph**
 
 ```bash
 python analyze_logs.py
@@ -69,7 +67,7 @@ python analyze_logs.py
 
 You will see a graph illustrating uptime vs downtime.
 
-### **3. Generate Uptime Summary Metrics**
+3. Generate Uptime Summary Metrics**
 
 ```bash
 python summary_report.py
@@ -81,7 +79,7 @@ Produces:
 Uptime %, Failures, Streaks
 ```
 
-### **4. Generate Reliability KPI (FAB-Grade)**
+4. Generate Reliability KPI (FAB-Grade)**
 
 ```bash
 python reliability_metrics.py
@@ -95,7 +93,7 @@ MTBF, MTTR, Availability %
 
 ---
 
-## 📊 Sample Output
+ Sample Output
 
 ```
 ========== MACHINE PERFORMANCE SUMMARY ==========
@@ -118,7 +116,7 @@ Equipment Availability            : 100.00%
 
 ---
 
-## 🎯 Why This Project Matters
+🎯 Why This Project Matters
 
 This system simulates core semiconductor automation concepts:
 
@@ -131,9 +129,9 @@ Perfect discussion point for interviews — especially CIM roles at **Tata Elect
 
 ---
 
-## 🏁 Project Completed By
+ 🏁 Project Completed By
 
-**Shankar Subhan Singh Bondili**
+Shankar Subhan Singh Bondili
 📧 [shankarsingh.job@gmail.com](mailto:shankarsingh.job@gmail.com)
 🔗 GitHub: [https://github.com/BShankar2003](https://github.com/BShankar2003)
 
